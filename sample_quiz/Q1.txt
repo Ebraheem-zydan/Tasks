@@ -1,0 +1,26 @@
+q1)
+....
+1)
+list & typle -->they are a data structure tool used to store multable data
+difference        list         typle
+                  mutable      unmutable
+..........................................
+2)
+break   -->is a statement used to terminate from only one loop.
+continue-->is a statement used to excute the next iteration of the loop opposite break.
+pass    -->is a statement used syntactically to do nothing.
+..........................................
+3)
+self--> is used to make instance of the class.
+..........................................
+4)
+docString--> is the string literals that appear right after the definition of a function, method, class, or module
+..........................................
+5)
+class Ebraheem:
+	pass
+class Ragab:
+	pass
+class multiple_inheritance(Ebraheem,Ragab)
+	pass
+..........................................

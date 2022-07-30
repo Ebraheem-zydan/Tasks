@@ -1,0 +1,109 @@
+:root {
+    --red: #ff3838;
+    --whiteColor: ##686868;
+    --blackColor: #000;
+    --backgroundColor: #1D1D1D;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+    font-family: 'Roboto', sans-serif;
+    list-style-type: none;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+
+    transition: all .3s linear;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:var(--backgroundColor)
+}
+section {
+    margin-top: 70px;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.clear {
+    clear: both
+}
+
+
+
+
+/* =============-------------------------------about------------------------------=========== */
+.about {
+    overflow: hidden;
+
+}
+
+.about .bread-img {
+    float: left;
+    width: 45%;
+    margin-right: 100px;
+}
+
+.about .bread-img img {
+
+    width: 100%;
+}
+
+.about .we {
+    text-align: center
+}
+
+
+.about .we p {
+    color: var(--whiteColor);
+    line-height: 1.7;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.about .we .props p {
+    font-size: 1.2rem;
+    color: var(--whiteColor);
+    text-align: left;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.about .we .props p span {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    border: solid #979797 2px
+}
+
+.about .we .props p span i {
+    font-size: 1.6rem
+}
+
+/* =============-------------------------------location------------------------------=========== */
+
+.DarkLight{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    padding-top: 10px;
+    margin: auto;
+    margin-top: 50px;
+    
+}
+.DarkLight button{
+    padding: 6px 10px;
+    border-radius: 5px;
+    border: 2px solid var(--greenColor);
+    
+}
+button{
+    color:var(--blackColor)
+}
